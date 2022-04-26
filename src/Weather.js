@@ -24,16 +24,6 @@ function Weather() {
     });
   }
 
-  // useEffect(() => {
-  //   function defaultCity(city1) {
-  //     let urlDefault = `https://api.openweathermap.org/data/2.5/weather?q=${city1}&appid=4884059c1a2f6653c04d553890063a37&units=metric`;
-  //     axios.get(urlDefault).then(changeData);
-  //   }
-
-  //   defaultCity("Paris");
-  //   //handle Weather function after first render
-  // }, []);
-
   function handleSubmit(event) {
     event.preventDefault();
     search();
